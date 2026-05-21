@@ -25,7 +25,6 @@ A full-stack web application with a React frontend, NestJS backend, and a LangGr
 cd backend
 npm install
 cp .env.example .env
-# Edit .env with your database and API keys
 npx prisma generate
 npx prisma migrate dev
 npm run start:dev
